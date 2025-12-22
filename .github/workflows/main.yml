@@ -1,0 +1,13 @@
+name: Workflow 
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  Github:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: greetings
+      run: echo "Hello World"
