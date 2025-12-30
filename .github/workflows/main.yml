@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: greetings
-      run: echo "Hello World"
+      run: echo "Hello world"
 
 
 
